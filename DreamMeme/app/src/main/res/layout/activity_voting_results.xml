@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VotingResults">
+
+    <include layout="@layout/activity_base"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_light"
+            android:textStyle="bold"
+            android:text="Results"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="60sp"
+            />
+        <ListView
+            android:id="@+id/votingresults"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="30dp"
+            android:divider = "#000"
+            android:dividerHeight = "1dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="50sp"
+            />
+
+        <ListView
+            android:id="@+id/remainingresults"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="50sp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:layout_above="@+id/lay">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Leave" />
+
+    </LinearLayout>
+
+</RelativeLayout>

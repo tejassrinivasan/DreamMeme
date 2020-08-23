@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/activity_base"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="45dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_light"
+        android:textStyle="bold"
+        android:text="@string/dream_meme"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="60sp"
+         />
+
+    <ImageView
+        android:id="@+id/start_background"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:visibility="visible"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/anim_slideshow" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp">
+
+        <Button
+            android:id="@+id/creategame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_game"
+            android:layout_weight="1"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="40dp"/>
+
+        <Button
+            android:id="@+id/joingame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_game"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="32dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

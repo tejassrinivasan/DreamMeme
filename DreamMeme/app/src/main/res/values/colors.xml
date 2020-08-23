@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="kahoot1">#45a3e5</color>
+    <color name="kahoot2">#66bf39</color>
+    <color name="kahoot3">#eb670f</color>
+    <color name="kahoot4">#ff3355</color>
+    <color name="kahoot5">#864cbf</color>
+</resources>

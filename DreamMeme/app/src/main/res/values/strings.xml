@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dream Meme</string>
+    <string name="create_game">Create Game</string>
+    <string name="dream_meme">Dream Meme</string>
+    <string name="join_game">Join Game</string>
+    <string name="enter_a_display_name">Enter a Display Name</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_activity_app_settings">AppSettings</string>
+    <string name="timer">02:00</string>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "380194986938",
+    "firebase_url": "https://dreammeme-team.firebaseio.com",
+    "project_id": "dreammeme-team",
+    "storage_bucket": "dreammeme-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380194986938:android:8198fb0d9a74a059059b83",
+        "android_client_info": {
+          "package_name": "com.example.databasetrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380194986938-09v5arkk26vdl2ojlefju8nalaqv3285.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx7IoIpUwsktEjbPLGhqO4Ebjha9ngPwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380194986938-09v5arkk26vdl2ojlefju8nalaqv3285.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380194986938:android:03b8d2407c3c7e8e059b83",
+        "android_client_info": {
+          "package_name": "com.example.dreammeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380194986938-09v5arkk26vdl2ojlefju8nalaqv3285.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx7IoIpUwsktEjbPLGhqO4Ebjha9ngPwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380194986938-09v5arkk26vdl2ojlefju8nalaqv3285.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
